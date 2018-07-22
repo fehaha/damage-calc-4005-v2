@@ -17,7 +17,7 @@ jobs:
           when: always
       - store_test_results:
           path: ./junit
-      - store_artifacts: 
+      - store_artifacts:
           path: ./junit
 
       - restore_cache:
